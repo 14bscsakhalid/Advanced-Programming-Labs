@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Clo" class="pk.edu.nust.seecs.gradebook.entity">
+        <property name="cloId" value="Spring is fun." />
+        <property name="name" value="Spring is fun." />
+        <property name="description" value="Spring is fun." />
+        <property name="plo" value="Spring is fun." />
+        <property name="btLevel" value="Spring is fun." />
+    </bean>
+    
+    <bean id="Course" class="pk.edu.nust.seecs.gradebook.entity">
+        <property name="courseId" value="Spring is fun." />
+        <property name="classtitle" value="Spring is fun." />
+        <property name="startsOn" value="Spring is fun." />
+        <property name="endsOn" value="Spring is fun." />
+        <property name="creditHours" value="Spring is fun." />
+    </bean>
+    
+    <bean id="Student" class="pk.edu.nust.seecs.gradebook.entity">
+        <property name="studentId" value="Spring is fun." />
+        <property name="name" value="Spring is fun." />
+        <property name="courses" value="Spring is fun." />
+    </bean>
+    <bean id="Teacher" class="pk.edu.nust.seecs.gradebook.entity">
+        <property name="teacherId" value="Spring is fun." />
+        <property name="name" value="Spring is fun." />
+        <property name="courses" value="Spring is fun." />
+    </bean>
+
+</beans>
